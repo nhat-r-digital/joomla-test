@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="module" version="3.1" client="site" method="upgrade">
+    <name>mod_hello</name>
+    <author>Joomla! Project</author>
+    <creationDate>July 2006</creationDate>
+    <copyright>Copyright (C) 2005 - 2020 Open Source Matters. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <authorEmail>admin@joomla.org</authorEmail>
+    <authorUrl>www.joomla.org</authorUrl>
+    <version>3.0.0</version>
+    <description>MOD_HELLO_XML_DESCRIPTION</description>
+    <files>
+        <filename>mod_hello.xml</filename>
+        <filename module="mod_hello">mod_hello.php</filename>
+        <folder>tmpl</folder>
+        <filename>index.html</filename>
+    </files>
+    <languages>
+        <language tag="en-GB" client="site">language/en-GB/en-GB.com_hello.ini</language>
+        <language tag="en-GB" client="site">language/en-GB/en-GB.com_hello.sys.ini</language>
+    </languages>
+    <config>
+    </config>
+</extension>
